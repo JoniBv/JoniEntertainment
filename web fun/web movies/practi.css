@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.group{
+    width: 1000px;
+    margin: 15px auto;
+    text-align: left;
+}
+@font-face{
+    font-family: "myfont";
+    src: url("Minecrafter.Alt.ttf");
+}
+.menu{
+    text-align: right;
+    background: #000000;
+    padding: 15px, 5px;
+}
+.menu li{
+    display: inline-block;
+    font: 25px;
+    text-decoration: none;
+    padding: 15px; 25px;
+}
+.menu li a{
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+    font: bold 30px myfont;
+}
+.menu li a:hover{
+    background: #ffffff;
+    color: #000000;
+    padding: 15px 25px;
+}
+.recomendation{
+    display: block;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    padding: 15px 15px;
+    margin: 20px auto;
+    width: 60%;
+    font: bold 30px myfont;
+}
+.movie{
+    background: #000000;
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+.moviemein{
+    width: 300px;
+}
+.coverp{
+    display: block;
+    padding: 15px auto;
+    margin: 50px 50px;
+    float: left;
+    
+    transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+.coverp:hover{
+    transition: transform 1s ease-in-out 0.5;
+    
+    transform: scale(1.3)
+}
+.recomendation .def{
+    display: block;
+    float: left;
+    width: 700%;
+    color: #ffffff;
+    clear: both;
+}
+p{
+    color: #ffffff;
+}

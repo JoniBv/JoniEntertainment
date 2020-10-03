@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "myfont";
+    src: url("Minecrafter.Alt.ttf");
+}
+body{
+    background: #000000;
+}
+div, nav, ul, li,{
+    display: block;
+}
+.enjoy{
+    background: #ffffff;
+    text-align: center;
+    pading: 40px 30px;
+    font: 20px myfont;
+}
+.menu{
+    background: #000000;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+.menu nav ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+.menu nav ul li a{
+    font: 30px myfont;
+    text-decoration: none;
+    padding: 25px 25px;
+    color: #ffffffff;
+}
+.menu nav ul li a:hover{
+    color: #000000;
+    background: #ffffff;
+    padding: 25px 25px;
+}
+.main{
+    margin: 0px auto;
+    width: 900px;
+    display: block;
+}
+.main .b1 .0 .t{
+    overflow: hidden;
+    display: block;
+    
+    margin: 0px auto;
+}
+children

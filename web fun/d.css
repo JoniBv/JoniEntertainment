@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div,ul,nav,{
+    display: block;
+    text-align: center;
+}
+body{
+    background: #000000;
+}
+@font-face{
+    font-family: "myfont";
+    src: url("Minecrafter.Alt.ttf");
+}
+.menu{
+    display: inline-block;
+    width: 100%;
+    background: #000000;
+    text-align: center;
+    
+}
+.menu .m lu li{
+    padding: 15px 15px;
+    display: inline-block;
+    color: #ffff;
+    border-buttom: 2px solid #ffff;
+}
+.menu .m lu li a{
+    color: #ffffff;
+    text-decoration: none;
+    font: bold 25px myfont;
+    padding: 25px 25px;
+}
+.menu .m lu li a:hover{
+    color: #000000;
+    background: #ffffff;
+    padding: 25px 25px;
+}
+.re{
+    text-align: center;
+    font: 20px myfont;
+    width: 500;
+    background: #ffffff;
+    margin: 0px auto;
+    
+}
+.ma{
+    overflow: hidden;
+    padding: 50px 50px;
+    display: blok;
+    width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+.item{
+    background: #ffffff;
+    margin: 1em;
+    padding: 1em;
+    float: left;
+}
+.i{
+    
+    transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+.i:hover{
+    transform: scale(1.3);
+}
+.p{
+    transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+.p:hover{
+    transform: scale(1.3);
+}
+.w{
+    transition: -webkit-transform 1s ease-in-out 0.5s;
+}
+.w:hover{
+    transform: scale(1.3);
+}
